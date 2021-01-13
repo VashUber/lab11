@@ -20,10 +20,21 @@ jQuery(function(){
     $(".sho").removeClass("sho");
   });
   $("#pena").click(function(){
-    $("#tuda").remove()
-  })
+    $("#tuda").remove();
+  });
   $("#chto").click(function(){
-    alert($("#lo").css("color"))
-    $("#lo").css("color", "blue")
-  })
+    alert($("#lo").css("color"));
+    $("#lo").css("color", "blue");
+  });
+  $("#text54").click(function(){
+    console.log($(".maska").text());
+  });
+  $("#hide").click(function(){
+    $(".img1").toggle();
+  });
+  $(".block").mouseover(function(){
+    let dimensions = "";
+    dimensions+= "Width: " + $(".block").width() + "px Height: " + $(".block").height() + "px";
+    $(".block").html(dimensions);
+  });
 })
