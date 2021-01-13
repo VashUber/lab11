@@ -2,103 +2,91 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
+  <title>Учиха Саске</title>
   <link rel="stylesheet" href="style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="script.js"></script>
-  <title>11lab</title>
+  <style>
+  table {
+    width: 300px;
+    border: 3px solid #87CEEB;
+    margin: auto;
+  }
+  td, th{
+    border: 3px solid #87CEEB;
+  }
+  </style>
 </head>
 <body>
-  <header id="home">
-    <nav>
-      <ul>
-        <li class="navigation"><a href="#c1" class="navr">Contact</a></li>
-        <li class="navigation"><a href="#a1" class="navr">About me</a></li>
-        <li class="navigation"><a href="#w1" class="navr">What I do</a></li>
-        <li class="navigation"><a href="#my" class="navr">My works</a></li>
-        <li class="navigation"><a href="#home" class="navr">Home</a></li>
-      </ul>
-    </nav>
-    <div>
-      <p><img src="p/f1.png" alt="f1" class="f1" id="my"></p>
-      <p><img src="p/f2.png" alt="f2" class="f2"></p>
-      <p><img src="p/f3.png" alt="f3" class="f3"></p>
-      <p><img src="p/f4.png" alt="f4" class="f4"></p>
-      <p><img src="p/f5.png" alt="f5" class="f5"></p>
-      <p><img src="p/f6.png" alt="f6" class="f6"></p>
+  <h1 id="Главная">Учиха Саске</h1>
+  <p class="sas">
+    <img src="p/sas1.png" alt="Саске из шипудена" class="img1">
+  </p>
+  <p>
+    <strong>Саске Учиха</strong> (<i>яп. うちはサスケ, Учиха Саске</i>) — один из последних выживших членов клана Учиха из Деревни Скрытого Листа.
+  </p>
+  <button class="showing">Ну давай давай дружок чем дальше удивишь давай показывай</button>
+  <p class="p2">
+    После того, как его старший брат Итачи вырезал весь их клан, Саске поставил перед собой жизненную цель отомстить за клан и семью, убив Итачи. Он попадает в Команду 7, когда становится ниндзя, и благодаря состязаниям со своим соперником и лучшим другом, Наруто Узумаки, начинает оттачивать свои навыки. Недовольный своим прогрессом, он покидает Лист, чтобы обрести силу, необходимую для осуществления мести. Годы, проведённые в поисках мести, стали невероятно взыскательными и неразумными, равно как и изолировали его от других, из-за чего он вскоре становится международным преступником. После того, как Саске сыграл одну из ключевых ролей в окончании Четвёртой Мировой Войны Шиноби, а Наруто смог избавить его от ненависти, он решает вернуться в Скрытый Лист и посвящает свою жизнь защите деревни и её жителей — таким образом, он становится известен под прозвищем "Поддерживающий Каге" (<i>яп. 支う影, Сасаукагэ, Буквальное значение: Поддерживающая Тень</i>).
+  </p>
+  <hr>
+  <p>Навигация</p>
+  <nav>
+    <ul>
+      <li><a href="#Главная" class="navr">Главная</a></li>
+      <li><a href="#Сасори" class="navr">Дамы сори я Сасори</a></li>
+    </ul>
+</nav>
+  <hr>
+  <form>
+    <p><b>Лучшая арка в наруто по вашему мнению</b></p>
+    <p><label for="name">Имя:</label>
+    <input type="text" name="name" id="name" class="name">
+    </p>
+    <p><label for="answer">Ответ:</label>
+    <input type="text" name="answer" id="answer" class="answer">
+    </p>
+    <p>
+      <button class="bt">Принять</button>
+    </p>
+  </form>
+  <hr>
+  <h2>Рост Саске в разных частях</h2>
+  <table>
+    <tr>
+      <th>1 часть</th>
+      <th>2 часть</th>
+      <th>Боруто</th>
+    </tr>
+    <tr>
+      <td>150,8 см-153,2 см</td>
+      <td>168 см</td>
+      <td>182 см</td>
+    </tr>
+  </table>
+  <hr>
+  <div>
+    <button type="button" name="button" id = "ban">Бан?</button>
+    <p class="sho">removeClass() - Удаление одного или нескольких классов из выбранных элементов</p>
+  </div>
+  <hr>
+  <hr>
+  <div>
+    <button type="button" name="button" id="pena">Пены не будет</button>
+    <p id="tuda"><img src="p/pena.jpg" alt = "угу" style = "width:200px;"></p>
+  </div>
+  <hr>
+  <button type="button" name="button" id="chto">Что тут у нас?</button>
+  <p style="color: red" id="lo">Back in 1985 Sculley turned down an appeal from Microsoft founder Bill Gates to license its software.Not long after this decision was the turning point for the company. Jobs revamped the computers and introduced the iBook (a personal laptop). He also started branching out into mp3 players (iPod) and media player software (iTunes). This was Jobs' best move yet. While computers are still an important part of Apple, its music related products (i.e. iPod and iTunes) have become the company's most profitable sector. Apple has also recently released the iPhone, a cellular phone, and the Apple TV. While Steve Jobs died October 5, 2011, Apple continues on with his legacy.</p>
+  <hr>
+  <div class="str">Div как строковый элемент.Not long after this decision was the turning point for the company. Jobs revamped the computers and introduced the iBook (a personal laptop). He also started branching out into mp3 players (iPod) and media player software (iTunes). This was Jobs' best move yet. While computers are still an important part of Apple, its music related products (i.e. iPod and iTunes) have become the company's most profitable sector. Apple has also recently released the iPhone, a cellular phone, and the Apple TV. While Steve Jobs died October 5, 2011, Apple continues on with his legacy.</div>
+  <hr>
+  <footer>
+    <p>Информация взята с сайта <a class="bl" href="https://naruto.fandom.com/ru/wiki/%D0%A1%D0%B0%D1%81%D0%BA%D0%B5_%D0%A3%D1%87%D0%B8%D1%85%D0%B0">naruto fandom</a></p>
+    <div id="аниме" class="anim">
+      <div class="text1" id="Сасори">Дамы сори я Сасори</div>
+      <img src="p/sasori.jpg" alt="Дамы сори я Сасори">
     </div>
-  </header>
-  <main>
-  <p class="exp">Expand</p>
-  <div class="col" id="w1">
-    <p class="what">What I do</p>
-    <p class="t1">Fingerstache green juice semiotics quinoa, truffaut letterpress wolf photo booth ugh biodiesel
-      mumblecore brunch. Meh
-      austin vinyl banh mi, gluten-free chillwave scenester kombucha street art. Before they sold out lumbersexual
-      chillwave,
-      cold-pressed mumblecore beard pickled letterpress normcore crucifix</p>
-  </div>
-    <div class="k1"><img src="p/2.png" alt="2" class="ph"></div>
-  <div class="ots1">
-      <div class="hv"><div class="box1"></div>
-      <div class="pl1">Key Visual</div></div>
-      <div class="hv"><div class="box2"></div>
-      <div class="pl2">UX/UI</div></div>
-      <div class="hv"><div class="box3"></div>
-      <div class="pl3">Brand</div></div>
-      <div class="hv"><div class="box4"></div>
-      <div class="pl4">Package design</div></div>
-  </div>
-  <div class="ab">UX/UI</div>
-  <div class="inf">Fingerstache green juice semiotics quinoa, truffaut letterpress wolf photo booth ugh biodiesel
-    mumblecore brunch. Meh
-    austin vinyl banh mi, gluten-free chillwave scenester kombucha street art. Before they sold out lumbersexual
-    chillwave,
-    cold-pressed mumblecore beard pickled letterpress normcore crucifix.</div>
-  <div class="line"></div>
-  <div class="op1" id="a1"><img src="p/3.png" alt="3"></div>
-  <div class="sasha">
-    <p class="about">About me</p>
-    <p class="text1">Fingerstache green juice semiotics quinoa, truffaut letterpress wolf photo booth ugh biodiesel
-      mumblecore brunch. Meh
-      austin vinyl banh mi, gluten-free chillwave scenester kombucha street art. Before they sold out lumbersexual
-      chillwave,
-      cold-pressed mumblecore beard pickled letterpress normcore crucifix. Fingerstache green juice semiotics quinoa,
-      truffaut
-      letterpress wolf photo booth ugh biodiesel mumblecore brunch. Meh austin vinyl banh mi, gluten-free chillwave
-      scenester
-      kombucha street art. Before they sold out lumbersexual chillwave, cold-pressed mumblecore beard pickled
-      letterpress
-      normcore crucifix. Fingerstache green juice semiotics quinoa, truffaut letterpress wolf photo booth ugh biodiesel
-      mumblecore brunch. Meh austin vinyl banh mi, gluten-free chillwave scenester kombucha street art. Before they sold
-      out
-      lumbersexual chillwave, cold-pressed mumblecore beard pickled letterpress normcore crucifix. Fingerstache green
-      juice
-      semiotics quinoa, truffaut letterpress wolf photo booth ugh biodiesel mumblecore brunch. Meh austin vinyl banh mi,
-      gluten-free chillwave scenester kombucha street art. Before they sold out lumbersexual chillwave, cold-pressed
-      mumblecore beard pickled letterpress normcore crucifix.</p>
-  </div>
-  </main>
-  <footer id="c1">
-    <div class="line"></div>
-    <form class="fr">
-      <p class="name">Name: </p>
-      <p><input class="table1"></p>
-      <p class="email">Email: </p>
-      <p><input class="table2"></p>
-      <p class="mes">Message: </p>
-      <p><textarea class="table3"></textarea></p>
-    <button type="submit" class="but">Send</button>
-    </form>
-    <div class="ots">
-      <p class="cont">Contact</P>
-      <p class="ad">Address:</p>
-      <p class="ad1">9114 Bridge Street, Hillsboro, OR 97124</p>
-      <p class="em">Email:</p>
-      <p class="em1">contatc@yoursite.com</p>
-      <p class="phon">Phone:</p>
-      <p class="phon1">+48 202-555-0114</p>
-    </div>
-    <div class="last">Copyright 2020 © by Damian Lisiewski</div>
   </footer>
 </body>
 </html>
