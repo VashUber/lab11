@@ -37,4 +37,12 @@ jQuery(function(){
     dimensions+= "Width: " + $(".block").width() + "px Height: " + $(".block").height() + "px";
     $(".block").html(dimensions);
   });
+  $("#tabs").tabs();
+  $(".circle").draggable();
+  $(".blo").droppable({
+    drop: function(){
+      $(this)
+      .html("Попав");
+    }
+  });
 })
